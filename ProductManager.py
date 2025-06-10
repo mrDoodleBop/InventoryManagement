@@ -27,5 +27,16 @@ class ProductManager:
         self._log_time = log_time
 
     #setter methods:
+    def set_file_name(self, f):
+        self.file_name = f
+    def set_log_time(self, l):
+        self._log_time = l
 
     #getter methods:
+    def get_file_name(self):
+        return self._file_name
+    def get_log_time(self):
+        return self._log_time
+    def get_inventory(self):
+        pass
+
