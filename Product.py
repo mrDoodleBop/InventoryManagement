@@ -74,3 +74,14 @@ class Product:
     def get_upc_ean(self):
         return self._upc_ean
 
+
+    '''
+    Method that is passed a dictionary and turns the entries into Product objects
+        - format the image urls
+            -> turn one long string (with delimiters) into a list of strings
+        - format the pricing to go two decimal spaces
+        - if stock is not populated or 0 say "Out of Stock"
+        - 
+    '''
+    def convert_data(self, product_dict):
+        pass
