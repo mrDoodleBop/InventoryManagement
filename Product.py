@@ -36,12 +36,10 @@ class Product:
         self._image_urls = image_urls
         self._upc_ean = upc_ean
 
-        #Variable for the list of separated urls
-        self._image_list = []
-
         #Variable to store the category the product belongs to
         self._category = "Uncategorized"
 
+    '''
     #Default constructor
     def __init__(self):
         self._name = "N/A"
@@ -59,7 +57,7 @@ class Product:
 
         # Variable to store the category the product belongs to
         self._category = "Uncategorized"
-
+    '''
 
     #setter methods:
     def set_name(self, n):
@@ -80,8 +78,6 @@ class Product:
         self._image_urls = i
     def set_upc_ean(self, u):
         self._upc_ean = u
-    def set_image_list(self, image_list):
-        self._image_list = image_list
     def set_category(self, category):
         self._category = category
 
@@ -104,148 +100,28 @@ class Product:
         return self._image_urls
     def get_upc_ean(self):
         return self._upc_ean
-    def get_image_list(self):
-        return self._image_list
     def get_category(self):
         return self._category
 
 
     '''
-    Method that is passed a list of dictionaries and turns the entries into Product objects
-        - format the image urls
-            -> turn one long string (with delimiters) into a list of strings
-        - format the pricing to go two decimal spaces
-        - if stock is not populated or 0 say "Out of Stock"
-        - 
-    Parameter(s): inventory (list of dictionaries containing all the required information to create a Product object
-    Returns: a list of Product objects
+    To string method that will display all product information for testing a visualization purposes
+    To string format:
+    ----------------------------
+    Name : 
+    Code : 
+    Brand : 
+    Price : 
+    Warranty : 
+    Weight : 
+    Stock Level : 
+    Product Images : 
+    UPC/EAN :
+    ----------------------------
     '''
-    def convert_data(self, inventory):
+    def __str__(self):
 
-        '''
-        SEARCH BY KEYWORD:
-            This section of the program will complete two tasks:
-                1. Remove all T-Shirts and Patches from the inventory, as they will no longer be sold on the airsoft website
-                2. Categorize all inventory products, according to the organizational requirements of the airsoft website
-
-        A dictionary of keywords (for categorization) and list of keywords (for data removal) will first be created, allowing for easier/ more efficient search
-        The program will then iterate through the list of dictionaries, cross-referencing each product name with each keyword:
-            - If the name contains the word t-shirt or patch, the product will be removed from the inventory
-            - Otherwise, the program will then begin to iterate through the dictionary of keywords to find the keyword that
-                appears in the product name and categorize it accordingly based on that keyword's dictionary key
-        '''
-
-        #dictionary containing keywords required for categorization
-        word_dict = {
-            #Category 1
-            "SSCOPE / LIGHT / LASER" : [
-                "scope",
-                "optic",
-                "laser"
-            ],
-            #Category 2
-            "PYROTECHNICS / SMOKES" : [
-                "grenade",
-                "projectile",
-                "smoke",
-                "tag-19"
-            ],
-            #Category 3
-            "PARTS" : [
-                "magazine",
-                "grip",
-                "mount",
-                "grease"
-            ],
-            #Category 4
-            "MISC / TRINKETS" : [
-                "marker",
-                "plate",
-                "converter"
-            ],
-            #Category 5
-            "HPA" : [
-                "station",
-                "device",
-                "chassis",
-                "launcher",
-                "version"
-            ],
-            #Category 6
-            "GEARS / GLOVES / CLOTHES" : [
-                "glove",
-                "panel",
-                "goggles",
-                "hat",
-                "mask",
-                "rig",
-                "sling",
-                "scarf",
-                "rag",
-                "holster"
-            ],
-            #Category 7
-            "GAS / BBS / BATTERIES" : [
-                "BB's",
-                "Cartridge"
-            ],
-
-            #Category 8
-            "AIRSOFT SNIPERS / DMR" : [
-                "sniper",
-                "dmr"
-            ],
-            #Category 9
-            "AIRSOFT RIFLES" : [
-                "rifle"
-            ],
-            #Category 10
-            "AIRSOFT PISTOLS" : [
-                "pistol"
-            ],
-            #Category 11
-            "AIRSOFT LMG" : [
-                "lmg"
-            ]
-        }#end of keyword dictionary
-
-        #list containing keywords for removal
-        word_list = [
-            "patch",
-            "t-shirt",
-            "tshirt"
-        ]#end of keyword list
-
-        #iterate through each item in the inventory
-        for item in inventory:
-
-            #iterate through the list of removal words for search:
-            for word in word_list:
-
-                if word in item["Name"].lower():
-
-                    #remove the product from the list
-                    inventory.remove(item)
-
-            #now that all required products have been removed from the inventory, the remaining products can be categorized
-            #search through every word in the word_dict, and if any of the words in word_dict are in the name of the current item in inventory, set the category attribute of the Product object to the word's dictionary key:
-            for Category, word in word_dict.items():
-                for w in word:
-                    if w.lower() in item["Name"].lower():
-                        item["Category"] = Category
-                        break
-
-                if "Category" in item:
-                    break
-
-
-            # format the image urls
-
-            image_field = item.get("Product Images", "")
-            self._image_list = image_field.replace("Product Image URL: ", "").split("|")
-
-            print(item["Name"], self._image_list)
-
+        return "\n-------------Product---------------\nName : {}\nCode : {}\nBrand : {}\nPrice : {}\nWarranty : {}\nWeight : {}\nStock Level : {}\nProduct Images : {}""\nUPC/EAN : {}\n-------------------------------------".format(self._name, self._code, self._brand, self._price, self._warranty, self._weight, self._stock_level, self._image_urls, self._upc_ean)
 
 
 
