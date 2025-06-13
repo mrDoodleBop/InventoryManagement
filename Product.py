@@ -6,6 +6,7 @@ Purpose :
 '''
 
 #imports
+import csv
 
 
 '''
@@ -34,6 +35,10 @@ class Product:
         self._image_urls = image_urls
         self._upc_ean = upc_ean
 
+        #Variable for the list of separated urls
+        self._image_list = []
+
+
     #setter methods:
     def set_name(self, n):
         self._name = n
@@ -53,6 +58,8 @@ class Product:
         self._image_urls = i
     def set_upc_ean(self, u):
         self._upc_ean = u
+    def set_image_list(self, image_list):
+        self._image_list = image_list
 
     #getter methods:
     def get_name(self):
@@ -73,6 +80,8 @@ class Product:
         return self._image_urls
     def get_upc_ean(self):
         return self._upc_ean
+    def get_image_list(self):
+        return self._image_list
 
 
     '''
