@@ -15,8 +15,8 @@ The program will accept an inital CSV and eventually return a new, more organize
    - This class will be the blueprint telling the program how to store the data from the CSV
    - Each product row will be turned into an object instance of this class
 2. **Product Manager Class:**
-   - This class will be where the data from the CSV file will be loaded and stored
-   - 
+   - This class will be where the data from the CSV file will be loaded and stored into a list of dictionaries
+          - each dictionary in the list will contain all information required to create a Product object that can be worked with in the future
 
 
 
