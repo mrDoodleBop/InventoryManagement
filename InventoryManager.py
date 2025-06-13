@@ -18,7 +18,14 @@ def main():
 
     print(test.get_file_name())
 
-    test.load_data()
+    #test.load_data()
+    inventory = test.load_data()
+
+    product = Product("", "", "", "", "", "", "", "", "")
+
+    product.convert_data(inventory)
+
+
 
 
 

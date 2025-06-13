@@ -77,6 +77,7 @@ class ProductManager:
                 print("Dictionary added to inventory list")
             print(product_dict)
             print(self._inventory)
+            return self._inventory
 
 
     '''
