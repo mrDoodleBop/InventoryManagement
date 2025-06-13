@@ -1,0 +1,58 @@
+Category 1: Scope/Sight/Laser
+    -> Keywords (sight not included due to conflicts with other products)
+        - scope
+        - optic
+        - laser
+Category 2: Pyrotechnics/Smokes
+    -> Keywords
+        - grenade
+        - projectile
+        - smoke
+        - tag-19
+Category 3: Parts
+    -> Keywords
+        - magazine
+        - grip
+        - mount
+        - grease
+Category 4: Misc/Trinkets
+    -> Keywords
+        - marker
+        - plate
+        - converter
+Category 5: HPA
+    -> Keywords
+        - station
+        - device
+        - chassis
+        - launcher
+        - version
+Category 6: Gears/Gloves/Clothes
+    -> Keywords
+        - glove
+        - panel
+        - goggles
+        - hat
+        - mask
+        - rig
+        - sling
+        - scarf
+        - rag
+        - holster
+Category 7: Gas/BBs/Batteries
+    -> Keywords
+        - BB's
+        - Cartridge
+Category 8: Airsoft Snipers/DMR
+    -> Keywords
+        - sniper
+        - DMR
+Category 9: Airsoft Rifle
+    -> Keywords
+        - rifle
+Category 10: Airsoft Pistols
+    -> Keywords
+        - pistol
+Category 11: Airsoft LMG
+    -> Keywords
+        - lmg/ LMG
