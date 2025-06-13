@@ -197,6 +197,7 @@ class Product:
             "tshirt"
         ]#end of keyword list
 
+        #iterate through each item in the inventory
         for item in inventory:
 
             #iterate through the list of removal words for search:
@@ -209,7 +210,7 @@ class Product:
                     print("A {} has been removed from the inventory.".format(word.upper()))
 
             #now that all required products have been removed from the inventory, the remaining products can be categorized
-            #TO DO: search through every word in the word_dict, and if any of the words in word_dict are in the name of the current item in inventory, set the category attribute of the Product object to the word's dictionary key:
+            #search through every word in the word_dict, and if any of the words in word_dict are in the name of the current item in inventory, set the category attribute of the Product object to the word's dictionary key:
             for Category, word in word_dict.items():
                 for w in word:
                     if w.lower() in item["Name"].lower():
@@ -218,7 +219,25 @@ class Product:
                         break
 
                 if "Category" in item:
-                    break;
+                    break
+
+
+            # format the image urls
+            '''
+            image_field = item.get("Product Images", "")
+            self._image_list = [img.replace("|Product Image URL: ", "").strip() for img in image_field.split(",") if img.strip()]
+            #self._image_list = [img.replace("|", "").strip() for img in image_field.split(",") if img.strip()]
+
+
+            print(self._image_list)
+            '''
+
+            image_field = item.get("Product Images", "")
+            self._image_list = image_field.replace("Product Image URL: ", "").split("|")
+
+            print(self._image_list)
+
+
 
 
 
