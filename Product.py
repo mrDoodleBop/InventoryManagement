@@ -24,6 +24,7 @@ The class should contain:
 '''
 
 class Product:
+    #Loaded constructor
     def __init__(self, name, code, brand, price, warranty, weight, stock_level, image_urls, upc_ean):
         self._name = name
         self._code = code
@@ -39,7 +40,25 @@ class Product:
         self._image_list = []
 
         #Variable to store the category the product belongs to
-        self._category = ""
+        self._category = "Uncategorized"
+
+    #Default constructor
+    def __init__(self):
+        self._name = "N/A"
+        self._code = "N/A"
+        self._brand = "N/A"
+        self._price = 0.0
+        self._warranty = "N/A"
+        self._weight = 0.0
+        self._stock_level = 0
+        self._image_urls = "N/A"
+        self._upc_ean = "N/A"
+
+        # Variable for the list of separated urls
+        self._image_list = []
+
+        # Variable to store the category the product belongs to
+        self._category = "Uncategorized"
 
 
     #setter methods:

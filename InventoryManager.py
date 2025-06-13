@@ -21,7 +21,7 @@ def main():
     #test.load_data()
     inventory = test.load_data()
 
-    product = Product("", "", "", "", "", "", "", "", "")
+    product = Product()
 
     product.convert_data(inventory)
 
