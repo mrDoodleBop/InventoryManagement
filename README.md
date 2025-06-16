@@ -17,6 +17,17 @@ The program will accept an inital CSV and eventually return a new, more organize
 2. **Product Manager Class:**
    - This class will be where the data from the CSV file will be loaded and stored into a list of dictionaries
           - each dictionary in the list will contain all information required to create a Product object that can be worked with in the future
+## Iteration 2
+### For th second iteration of this program, the user should be able to complete these tasks:
+1. **Scrape the airsoftstation.com website for data on all products to put into a csv file
+2. **Using the csv file generated from the website, complete all tasks from Iteration 1
+
+### Classes to be created   
+1. **CSV Class**
+   - This class will be the blueprint telling the program how to store the data from the website
+   - All the data scraped from the website will be stored into this class
+2. **CSV Manager Class**
+   - This class will be where the data from the website is loaded and stored into a dictionary
 
 
 
