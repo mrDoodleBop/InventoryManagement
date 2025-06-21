@@ -1,0 +1,178 @@
+INVENTORY STRUCTURE
+==================================================
+
+MAIN CATEGORY: Airsoft Guns
+------------------------------
+  SUB-CATEGORY: Airsoft Pistols
+    CHILD CATEGORY: Gas Airsoft Pistols
+    URL: https://airsoftstation.com/gas-airsoft-pistols/
+    CHILD CATEGORY: Electric Airsoft Pistols
+    URL: https://airsoftstation.com/electric-airsoft-pistols/
+    CHILD CATEGORY: Spring Airsoft Pistols
+    URL: https://airsoftstation.com/spring-airsoft-pistols/
+
+  SUB-CATEGORY: Airsoft Rifles
+    CHILD CATEGORY: Electric Airsoft Rifles
+    URL: https://airsoftstation.com/electric-airsoft-rifles/
+    CHILD CATEGORY: Gas Airsoft Rifles
+    URL: https://airsoftstation.com/gas-airsoft-rifles/
+    CHILD CATEGORY: Airsoft Sniper Rifles
+    URL: https://airsoftstation.com/airsoft-sniper-rifles/
+    CHILD CATEGORY: Spring Airsoft Rifles
+    URL: https://airsoftstation.com/spring-airsoft-rifles/
+    CHILD CATEGORY: HPA Airsoft Rifles
+    URL: https://airsoftstation.com/hpa-airsoft-rifles/
+
+  SUB-CATEGORY: Browse by Weapon Style
+    CHILD CATEGORY: AK47 Airsoft Guns and Rifles
+    URL: https://airsoftstation.com/ak-variants/
+    CHILD CATEGORY: M4 Variants
+    URL: https://airsoftstation.com/m4-variants/
+    CHILD CATEGORY: Other Airsoft Guns
+    URL: https://airsoftstation.com/other-airsoft-guns/
+
+
+==================================================
+
+MAIN CATEGORY: BBs & Pellets
+------------------------------
+  No sub-categories found.
+
+MAIN CATEGORY: Tactical Gear
+------------------------------
+  SUB-CATEGORY: Protective Gear
+    CHILD CATEGORY: Barrel Blockers
+    URL: https://airsoftstation.com/barrel-blockers-1/
+    CHILD CATEGORY: Gloves
+    URL: https://airsoftstation.com/gloves-1/
+    CHILD CATEGORY: Goggles and Face Masks Protection
+    URL: https://airsoftstation.com/goggles-and-face-masks-1/
+    CHILD CATEGORY: Helmets, Attachments, & Accessories
+    URL: https://airsoftstation.com/helmets-attachments-accessories-1/
+    CHILD CATEGORY: Knee, Elbow & Chest Pads
+    URL: https://airsoftstation.com/knee-elbow-chest-pads-1/
+
+
+==================================================
+
+MAIN CATEGORY: Airsoft Parts
+------------------------------
+  SUB-CATEGORY: AEG Parts
+    CHILD CATEGORY: Air Nozzles
+    URL: https://airsoftstation.com/air-nozzles/
+    CHILD CATEGORY: Bushings & Bearings
+    URL: https://airsoftstation.com/bushings-bearings/
+    CHILD CATEGORY: Cylinders & Cylinder Heads
+    URL: https://airsoftstation.com/cylinders-cylinder-heads/
+    CHILD CATEGORY: Gearboxes
+    URL: https://airsoftstation.com/gearboxes-complete/
+    CHILD CATEGORY: Gears and Gear Sets
+    URL: https://airsoftstation.com/gears-and-gear-sets/
+    CHILD CATEGORY: Hop-Up Units, Buckings, & R-Hop
+    URL: https://airsoftstation.com/hop-up-units-buckings-r-hop/
+    CHILD CATEGORY: Inner Barrels
+    URL: https://airsoftstation.com/inner-barrels/
+    CHILD CATEGORY: Miscellaneous
+    URL: https://airsoftstation.com/miscellaneous/
+    CHILD CATEGORY: MOSFETs & Burst Units
+    URL: https://airsoftstation.com/mosfets-burst-units/
+    CHILD CATEGORY: Motors
+    URL: https://airsoftstation.com/motors/
+    CHILD CATEGORY: Pistons & Piston Heads
+    URL: https://airsoftstation.com/pistons-piston-heads/
+    CHILD CATEGORY: Shims
+    URL: https://airsoftstation.com/shims/
+    CHILD CATEGORY: Springs & Spring Guides
+    URL: https://airsoftstation.com/springs-spring-guides/
+    CHILD CATEGORY: Tappet and Selector Plates
+    URL: https://airsoftstation.com/tappet-and-selector-plates/
+    CHILD CATEGORY: Tune Up Kits
+    URL: https://airsoftstation.com/tune-up-kits/
+    CHILD CATEGORY: Wiring and Electrical
+    URL: https://airsoftstation.com/wiring-and-electrical/
+
+
+==================================================
+
+MAIN CATEGORY: Airguns
+------------------------------
+  No sub-categories found.
+
+MAIN CATEGORY: Accessories
+------------------------------
+  SUB-CATEGORY: Magazines & Accessories
+    CHILD CATEGORY: Pistol Magazines
+    URL: https://airsoftstation.com/pistol-magazines/
+    CHILD CATEGORY: Rifle Magazines
+    URL: https://airsoftstation.com/rifle-magazines/
+    CHILD CATEGORY: Sniper Rifle Magazines
+    URL: https://airsoftstation.com/sniper-rifle-magazines/
+    CHILD CATEGORY: Airsoft Pistol, Rifle, & Shotgun Shells
+    URL: https://airsoftstation.com/airsoft-pistol-rifle-shotgun-shells/
+    CHILD CATEGORY: Magazine Accessories
+    URL: https://airsoftstation.com/magazine-accessories/
+
+  SUB-CATEGORY: Scopes & Optics
+    CHILD CATEGORY: Zoom Scopes
+    URL: https://airsoftstation.com/scopes-optics/
+    CHILD CATEGORY: Ballistic Optics Protectors
+    URL: https://airsoftstation.com/ballistic-optics-protectors/
+    CHILD CATEGORY: Red Dot & Holographic Sights
+    URL: https://airsoftstation.com/red-dot-holographic-sights/
+    CHILD CATEGORY: Flip-up, Iron, and Quick-Detach Sights
+    URL: https://airsoftstation.com/flip-up-iron-and-quick-detach-sights/
+
+  SUB-CATEGORY: Flash Hiders, Tracer Units, & Barrel Mods
+    CHILD CATEGORY: Airsoft Tracer Units
+    URL: https://airsoftstation.com/airsoft-tracer-units/
+    CHILD CATEGORY: Flash Hiders & Muzzle Breaks
+    URL: https://airsoftstation.com/flash-hiders-muzzle-breaks/
+    CHILD CATEGORY: Barrel Extensions & Mock Suppressors
+    URL: https://airsoftstation.com/barrel-extensions-mock-suppressors/
+    CHILD CATEGORY: Outer Barrels
+    URL: https://airsoftstation.com/outer-barrels/
+    CHILD CATEGORY: Thread Converters for Outer Barrels
+    URL: https://airsoftstation.com/thread-converters-for-outer-barrels/
+
+  SUB-CATEGORY: Batteries, Chargers, & PEQ Boxes
+    CHILD CATEGORY: Airsoft Battery Chargers and Adapters
+    URL: https://airsoftstation.com/battery-chargers
+    CHILD CATEGORY: NiMH Batteries
+    URL: https://airsoftstation.com/nimh-batteries/
+    CHILD CATEGORY: LiPO & Li-Ion Batteries
+    URL: https://airsoftstation.com/lipo-li-ion-batteries/
+    CHILD CATEGORY: PEQ Boxes
+    URL: https://airsoftstation.com/peq-boxes/
+    CHILD CATEGORY: Other Batteries
+    URL: https://airsoftstation.com/other-batteries/
+
+  SUB-CATEGORY: Grenades, Launchers, and Claymores
+    CHILD CATEGORY: Grenade Launchers, Underbarrel Launchers, Mortars 
+    URL: https://airsoftstation.com/grenade-launchers-underbarrel-launchers-mortars/
+    CHILD CATEGORY: Thunder, Tornado, Cyclone, & Banger Hand Grenades
+    URL: https://airsoftstation.com/thunder-tornado-cyclone-banger-hand-grenades/
+
+  SUB-CATEGORY: Protective Gear
+    CHILD CATEGORY: Goggles and Face Masks
+    URL: https://airsoftstation.com/goggles-face-masks/
+    CHILD CATEGORY: Helmets, Attachments, & Accessories
+    URL: https://airsoftstation.com/helmets-attachments-accessories/
+    CHILD CATEGORY: Knee, Elbow & Chest Pads
+    URL: https://airsoftstation.com/knee-elbow-chest-pads/
+    CHILD CATEGORY: Barrel Blockers
+    URL: https://airsoftstation.com/barrel-blockers/
+
+
+==================================================
+
+MAIN CATEGORY: Brands
+------------------------------
+  No sub-categories found.
+
+SUMMARY
+--------------------
+Total Main Categories: 7
+Total Sub-Categories: 11
+Total Child Categories: 57
+Inventory Generation Time: 00:00
+Website URL: https://airsoftstation.com

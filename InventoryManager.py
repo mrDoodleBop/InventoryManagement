@@ -107,23 +107,6 @@ def main():
     test = CSV_Manager("https://airsoftstation.com", "00:00")
 
     test.load_data()
-    
-    #print(test)
-    #first_item = next(iter(test.get_inventory().items()))
-    
-    '''
-    for sub_cat, child_cat in first_item[1].items():
-        print("\n\n\n{}".format(sub_cat))
-        for child_cat, value in child_cat.items():
-            print("    {}".format(child_cat))
-            print("        {}".format(value))
-    '''
-
-    #test.load_urls_csv()
-
-
-
-
 
 
 
