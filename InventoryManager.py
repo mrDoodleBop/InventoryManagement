@@ -6,10 +6,16 @@ Purpose :
 '''
 
 #imports:
+from bs4 import BeautifulSoup
+import requests
+
 import ProductManager
 from ProductManager import ProductManager
 import Product
 from Product import Product
+
+from CSV_Manager import CSV_Manager
+#from CSV import CSV
 
 
 def main():
@@ -17,7 +23,7 @@ def main():
     #dictionary containing the keywords required for categorization
     word_dict = {
         # Category 1
-        "SSCOPE / LIGHT / LASER": [
+        "SCOPE / LIGHT / LASER": [
             "scope",
             "optic",
             "laser"
@@ -98,26 +104,23 @@ def main():
     #list of Product objects
     product_list = []
 
-    test = ProductManager("copy_csv_shawn.csv", "00:00")
+    test = CSV_Manager("https://airsoftstation.com", "00:00")
 
-    print(test.get_file_name())
-
-    """
-    To Do (6/13/2025) :
-        - break down current convert_data function into three individual functions for abstraction
-        - the function that removes t-shirts and patches should be re-written to ask the user what products they would 
-            like to remove based on keyword
-        - create new method that uses the cleaned list of dictionaries to set values to each Product class attribute
-        - *** work on multi-row products in the csv file (will most likely require changes in the ProductManager class:
-            -> this process should most likely be done as the inventory data is read in by ProductManager
-    """
     test.load_data()
-    test.clean_data(word_list, word_dict)
-    product_list = test.load_objects()
+    
+    #print(test)
+    #first_item = next(iter(test.get_inventory().items()))
+    
+    '''
+    for sub_cat, child_cat in first_item[1].items():
+        print("\n\n\n{}".format(sub_cat))
+        for child_cat, value in child_cat.items():
+            print("    {}".format(child_cat))
+            print("        {}".format(value))
+    '''
 
+    #test.load_urls_csv()
 
-    for product in product_list:
-        print(product)
 
 
 

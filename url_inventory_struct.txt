@@ -1,0 +1,16 @@
+#main (inventory) dictionary: inventory = {
+
+
+	main_category : { #begin sub dictionary here
+
+		sub_category : { #begin child dictionary here
+
+			child_sub_category : url,
+			child_sub_category : url,
+			child_sub_category : url
+
+		} #end child dictionary here
+	
+	} #end sub dictionary here
+
+} #end main (inventory) dictionary here

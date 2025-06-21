@@ -7,7 +7,7 @@ Purpose : This file is where the data will be loaded and stored from the product
 
 #imports
 from datetime import datetime
-
+from collections import defaultdict
 import csv
 from csv import DictReader
 import Product
@@ -53,24 +53,28 @@ class ProductManager:
         It should repeat this process for the entirety of the csv file
     '''
     def load_data(self):
-
+        # Dictionary to store products grouped by their SKU
+        grouped_products = defaultdict(list)
+        
         with open(self._file_name, encoding='utf-8-sig', errors='replace') as data:
-
             reader = DictReader(data)
-
+            
             for row in reader:
-
-                # dictionary containing all information for a single product from the csv file
+                # Use the product Code (SKU) as the identifier
+                sku = row.get("Code", "").strip()
+                
+                # Create product dictionary for this row
                 product_dict = {
                     "Name": row.get("Name", ""),
-                    "Code": row.get("Code", ""),
+                    "Code": sku,
                     "Brand": row.get("Brand", ""),
                     "Price": row.get("MAP Price", ""),
                     "Warranty": row.get("Warranty", ""),
                     "Weight": row.get("Weight", ""),
                     "Stock Level": row.get("Stock Level", ""),
                     "Product Images": row.get("Product Images", ""),
-                    "UPC/EAN": row.get("UPC/EAN", "")
+                    "UPC/EAN": row.get("UPC/EAN", ""),
+                    "Configuration": row.get("Configuration", "")  # Add configuration field if it exists
                 }
 
                 #print("Dictionary created")
@@ -144,6 +148,8 @@ class ProductManager:
         self.rmv_products_by_list(keywords)
         self.cat_products(categories)
         self.format_urls()
+
+
 
     '''
     Load object method that uses the inventory list of dictionaries and turns the entries into a product class objects
