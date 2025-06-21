@@ -23,11 +23,10 @@ The program will accept an inital CSV and eventually return a new, more organize
 2. **Using the csv file generated from the website, complete all tasks from Iteration 1
 
 ### Classes to be created   
-1. **CSV Class**
-   - This class will be the blueprint telling the program how to store the data from the website
-   - All the data scraped from the website will be stored into this class
-2. **CSV Manager Class**
+1. **CSV Manager Class**
    - This class will be where the data from the website is loaded and stored into a dictionary
+   - It will load the data from the website into an organized dictionary
+   - It will then load the data into a csv to allow for future use of the data
 
 
 
